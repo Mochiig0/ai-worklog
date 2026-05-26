@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ProfileBox } from "@/components/ProfileBox";
@@ -92,6 +93,20 @@ export default function Home() {
             </div>
           </div>
           <ProfileBox />
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+        <div className="overflow-hidden rounded-lg border border-slate-200 bg-white p-2">
+          <Image
+            src={siteConfig.brand.banner}
+            alt="AI Worklogのブランドバナー"
+            width={1200}
+            height={630}
+            sizes="(max-width: 768px) 100vw, 80vw"
+            className="h-auto w-full rounded-md object-cover"
+            priority
+          />
         </div>
       </section>
 

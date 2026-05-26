@@ -94,6 +94,10 @@ hasAffiliate: true
 public/og/default-og.png
 ```
 
+画像アセット（整理後）
+- `public/brand`: サイトロゴ、プロフィール画像、X用バナー、favicon/アプリアイコン
+- `public/og`: SNSシェア用OGP画像
+
 本番運用時は、サイト名やドメインに合わせて正式な画像に差し替えてください。
 
 ## 注意
