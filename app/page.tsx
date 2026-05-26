@@ -75,7 +75,7 @@ export default function Home() {
               仕事と副業に使えるAI活用を、実践ログとして積み上げる。
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-8 text-slate-700">
-              ChatGPT、Canva、n8n、Make、Excel、Web制作、作業環境を中心に、初心者が試して判断しやすいノウハウをまとめる個人メディアです。収益導線は置きつつ、まずは日々の仕事が少し楽になる検証を重視します。
+              AI活用、Web制作、作業環境づくりを中心に、仕事を少しラクにする実践メモをまとめる個人メディアです。実際に試した手順やつまずき、判断基準を初心者にもわかりやすく記録していきます。
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
